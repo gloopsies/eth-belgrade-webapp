@@ -1,0 +1,40 @@
+{
+  "name": "ponte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.3",
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^4.0.1",
+    "scss": "^0.2.4",
+    "svelte": "^3.58.0",
+    "svelte-check": "^3.3.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@ethereum-attestation-service/eas-sdk": "^0.29.0",
+    "@metamask/detect-provider": "^2.0.0",
+    "@semaphore-protocol/data": "^3.10.1",
+    "@semaphore-protocol/group": "^3.10.1",
+    "@semaphore-protocol/identity": "^3.10.1",
+    "@semaphore-protocol/proof": "^3.10.1",
+    "ethers": "^6.4.1",
+    "helia": "^1.2.1",
+    "moralis": "^2.22.1",
+    "multihashes": "^4.0.3",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "sass": "^1.62.1",
+    "svelte-routing": "^1.9.0"
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+    --background-color: #F5EFE6;
+    --text-color: black;
+    --primary-color: #815B5B;
+    --on-primary: white;
+    --secondary-color: #E8DFCA;
+    --on-secondary: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+:where(button) {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+:where(input) {
+    border: none;
+    background: none;
+}
+
+body {
+    background-color: var(--background-color);
+}
